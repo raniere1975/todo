@@ -71,7 +71,9 @@ function App() {
      );
    };
 
- 
+   if(loading){
+        return <p> Carregando...</p>
+    };
   
   return (
     <div className="App">
